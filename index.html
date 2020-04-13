@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio aleatório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <h1>Sorteio Aleatório</h1>
+        </header>
+        <section>
+            <div id="fist">
+
+            
+            <div id="adicionar">
+                <h4>Adicionar na lista</h4>
+                <div id="campAdicionar">
+                    <input type="text" name="textoAdicionar" id="textoAdicionar" placeholder="Adicionar">
+                    <input type="button" value="Adicionar" id="btnAdicionar" onclick="adicionar()">       
+                 </div>
+                 <input type="button" value="Limpar" id="btnLimpar" onclick="location.reload()">
+            </div>
+            <div id="lista">
+                <select name="formLista" id="formLista" size="10"></select>
+            <div id="res"></div>
+            </div>
+            
+        </div>
+        <div id="second">
+            <div id="sortear">
+                <h4>Sortear agora? </h4>
+                <input type="button" value="Sortear" id="btnSortear" onclick="sortear()">
+            </div>
+        </div>
+        </section>
+        
+        <footer>
+            <p> &copy; Eduardo Sene Barbosa</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>

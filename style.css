@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+header{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.363);
+}
+section{
+    background-color: #ffffff;
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+div#fist{
+    width:400px ;
+    float: left;
+}
+div#second{
+    width:400px ;
+    float: right;
+}
+div#adicionar h4{
+    margin-bottom: 10px;
+}
+div#campAdicionar{
+    margin-top: -30px;
+    border: 2px solid #ccc;
+    padding: 4px ;
+    display: inline-block;
+    border-radius: 4px;
+}
+input#textoAdicionar{
+    border: none;
+    padding: 3px;
+    width: 200px;
+}
+input#btnAdicionar{
+    background: royalblue;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 4px;
+
+}
+input#btnLimpar{
+    background:#ed4a65;
+    color: #ffffff;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 0px 50px 50px 0px ;
+    
+}
+div#lista{
+    margin-top: 15px;
+}
+select#formLista{
+    width: 300px;
+    border-radius: 4px;
+    padding: 10px;
+    font: normal 12pt Arial;
+    border: 2px solid #ccc;
+}
+div#sortear{
+    width: 300px;
+    text-align: center;
+    margin: 70px auto auto auto ;
+}
+div#sortear h4{
+    margin-bottom: 10px;
+}
+input#btnSortear{
+    background: royalblue;
+    border: none;
+    padding: 10px 25px;
+    color: #ffffff;
+    border-radius: 50px;
+    font: normal 15pt Arial;
+}
+footer{
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.363);
+}
